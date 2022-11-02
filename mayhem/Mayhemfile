@@ -1,0 +1,6 @@
+project: tinyjpeg
+target: tinyjpeg-fuzz
+
+cmds:
+    - cmd: ./tinyjpeg-fuzz
+      libfuzzer: true
